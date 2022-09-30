@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://wallpapercave.com/wp/wp6940158.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+img{
+    border-radius: 1em;
+}
+
+header{
+    margin-bottom: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: orangered;
+    font-weight: bold;
+}
+
+.container{
+    max-width: 580px;
+    width: 90%;
+    margin: 1em auto;
+    color: orangered;
+}
+
+h1, p{
+    text-align: center;
+}
+
+.selecione, .resultado{
+    background-color: rgba(0, 0, 0, 0.8);
+    max-width: 580px;
+    width: 90%;
+    margin: 1em auto;
+    text-align: center;
+    padding: 1em;
+    border-radius: 1em;
+    height: 250px;
+}
+
+.selecione{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+select{
+    
+    width: 80%;
+    padding: 0.6em;
+    border-radius: 1em;
+    border: none;
+    outline: none;
+}
+
+.resultado{
+    font-size: 1.5em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.codigoFinal{
+    color: orangered;
+}
+
+.nomeMaquina{
+    color: grey;
+}
